@@ -1,21 +1,24 @@
-# Ant Design example
 
-This example shows how to use Next.js along with [Ant Design of React](https://ant.design). This is intended to show the integration of this UI toolkit with the Framework.
+# ThawornAp เว็บแอปพลิเคชันสำหรับแจ้งปัญหาในหอขนาดเล็ก
+เป็นแอปพลิเคชันที่พัฒนาด้วย React-Typescript
 
-## Deploy your own
+## ขั้นตอนในการติดตั้ง
+1. ติดตั้ง node version 14.18.1 ที่นี่ https://nodejs.org/en/blog/release/v14.18.1
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-ant-design&project-name=with-ant-design&repository-name=with-ant-design)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-ant-design with-ant-design-app
-# or
-yarn create next-app --example with-ant-design with-ant-design-app
+2. ติดตั้ง git ผ่าน Command Prompt หรือ Powershell
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+winget install --id Git.Git -e --source winget
+```
+3. ใช้คำสั่ง git clone เพื่อทำการคัดลอกโปรเจกต์
+```
+git clone https://github.com/Final-Project-Peerawit/ThawornAp-frontend.git
+```
+4. ติดตั้ง node module ผ่านคำสั่ง
+```
+npm install
+```
+## วิธีใช้งาน
+เมื่อทำการติดตั้งตามขั้นตอนทั้งหมดแล้ว สามารถ run ตามคำสั่งด้านล่างได้เลย
+```
+npm run dev
+```
