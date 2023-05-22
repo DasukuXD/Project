@@ -5,7 +5,7 @@
 ## ขั้นตอนในการติดตั้ง
 1. ติดตั้ง node version 14.18.1 ที่นี่ https://nodejs.org/en/blog/release/v14.18.1
 
-2. ติดตั้ง git ผ่าน Command Prompt หรือ Powershell
+2. ติดตั้ง git ผ่าน Command Prompt หรือ Powershell ผ่านคำสั่ง
 ```
 winget install --id Git.Git -e --source winget
 ```
